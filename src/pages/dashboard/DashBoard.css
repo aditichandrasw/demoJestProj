@@ -1,0 +1,90 @@
+.dashboard-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 20px;
+    background-color: #f8f9fa;
+    min-height: 100vh;
+    font-family: 'Roboto', sans-serif;
+  }
+  
+  .list-and-details {
+    display: flex;
+    gap: 20px;
+    width: 100%;
+    max-width: 1200px;
+    flex: 1;
+  }
+  
+  .list {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    width: 40%;
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    overflow-y: auto;
+    max-height: 80vh;
+  }
+  
+  .list-item {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 15px;
+    border-bottom: 1px solid #ddd;
+    cursor: pointer;
+    transition: background-color 0.3s;
+  }
+  
+  .list-item:hover {
+    background-color: #f0f0f0;
+  }
+  
+  .selected-item {
+    background-color: #e6f7ff;
+  }
+  
+  .delete-button {
+    background-color: #e74c3c;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    padding: 8px 12px;
+    font-size: 14px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  .delete-button:hover {
+    background-color: #e84141;
+  }
+  
+  /* Styling for the details section on the right */
+  .details {
+    flex: 1;
+    background-color: #ffffff;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    align-self: flex-start;
+    width: 40%;
+    position: sticky;
+    top: 0;
+  }
+  
+  .details h2 {
+    margin-top: 0;
+  }
+  
+  .details p {
+    margin: 10px 0;
+  }
+  
+  .loading {
+    font-size: 18px;
+    color: #555555;
+    text-align: center;
+  }
+  

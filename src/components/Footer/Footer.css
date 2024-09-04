@@ -1,0 +1,13 @@
+.dashboard-footer {
+    background-color: #2d3e50;
+    color: #ffffff;
+    text-align: center;
+    padding: 10px 0;
+    font-size: 14px;
+    margin-top: auto; /* Ensure the footer stays at the bottom */
+    width: 100%; /* Ensure the footer spans the full width of the page */
+}
+
+.dashboard-footer p {
+    margin: 0;
+}

@@ -1,0 +1,82 @@
+/* Global Styles */
+body {
+  font-family: 'Arial', sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #f4f4f9;
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+}
+
+.dashboard {
+  display: flex;
+  flex-direction: column;
+  flex-grow: 1; /* This ensures the main content area takes up all available space */
+}
+
+.dashboard-header {
+  background-color: #2d3e50;
+  padding: 10px 20px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.logo {
+  color: #ffffff;
+  font-size: 24px;
+  font-weight: bold;
+}
+
+.nav-buttons {
+  display: flex;
+  gap: 10px;
+}
+
+.btn {
+  padding: 8px 16px;
+  font-size: 16px;
+  cursor: pointer;
+  border: none;
+  border-radius: 4px;
+  transition: background-color 0.3s ease;
+}
+
+.btn.login {
+  background-color: #4CAF50;
+  color: white;
+}
+
+.btn.login:hover {
+  background-color: #45a049;
+}
+
+.btn.signup {
+  background-color: #008CBA;
+  color: white;
+}
+
+.btn.signup:hover {
+  background-color: #007bb5;
+}
+
+.dashboard-main {
+  flex-grow: 1;
+  padding: 40px 20px;
+  text-align: center;
+  color: #2d3e50;
+}
+
+.dashboard-main h1 {
+  margin-bottom: 20px;
+  font-size: 32px;
+}
+
+.dashboard-main p {
+  font-size: 18px;
+  line-height: 1.6;
+  max-width: 800px;
+  margin: 0 auto;
+}
+
